@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Renovación de fachada",
+    "descripcion": "Pintura exterior completa",
+    "imagenAntes": "/proyectos/proyecto-1/antes.jpg",
+    "imagenDespues": "/proyectos/proyecto-1/despues.jpg",
+    "destacado": true
+  },
+  {
+    "id": 2,
+    "titulo": "Renovación de fachada",
+    "descripcion": "Pintura exterior completa",
+    "imagenAntes": "/proyectos/proyecto-2/antes.jpg",
+    "imagenDespues": "/proyectos/proyecto-2/despues.jpg",
+    "destacado": true
+  },
+  {
+    "id": 3,
+    "titulo": "Renovación de fachada",
+    "descripcion": "Pintura exterior completa",
+    "imagenAntes": "/proyectos/proyecto-3/antes.jpg",
+    "imagenDespues": "/proyectos/proyecto-3/despues.jpg",
+    "destacado": true
+  }
+]
