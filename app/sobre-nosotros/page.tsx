@@ -41,7 +41,7 @@ export default function SobreNosotrosPage() {
             
             <div className="relative aspect-square">
               <Image
-                src="/proyectos/equipo.jpg"
+                src="/proyectos/equipo.jpeg"
                 alt="Nuestro equipo"
                 fill
                 className="object-cover rounded-lg shadow-xl "
