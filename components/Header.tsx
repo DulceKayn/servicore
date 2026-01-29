@@ -43,7 +43,7 @@ export default function Header() {
               Proyectos
             </Link>
             <Link 
-              href="#contacto" 
+              href="/#contacto" 
               className="text-white font-bold uppercase text-sm tracking-wide hover:text-brand-red transition-colors"
             >
               Contacto
@@ -87,7 +87,7 @@ export default function Header() {
               Proyectos
             </Link>
             <Link 
-              href="#contacto" 
+              href="/#contacto" 
               className="text-white font-bold uppercase text-sm tracking-wide hover:text-brand-red transition-colors"
               onClick={() => setMenuAbierto(false)}
             >

@@ -21,11 +21,11 @@ export default function ProyectosPage() {
               ← VOLVER AL INICIO
             </Link>
             <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
-              TODOS LOS <span className="text-brand-red">PROYECTOS</span>
+              MIRA NUESTRO <span className="text-brand-red">TRABAJO</span>
             </h1>
             <div className="w-24 h-1 bg-brand-red mb-6" />
             <p className="text-gray-light text-lg max-w-3xl leading-relaxed">
-              Explora nuestra galería completa de trabajos realizados. Haz clic en cualquier proyecto para ver más detalles.
+              Explora nuestro portfolio.
             </p>
           </div>
         </section>
@@ -33,17 +33,9 @@ export default function ProyectosPage() {
         {/* Grid de proyectos */}
         <section className="section-padding bg-gray-light pb-16">
           <div className="max-w-6xl mx-auto px-6">
-            <div className="mb-12 pt-8">
-              <h2 className="text-4xl md:text-5xl font-extrabold text-gray-darker mb-4">
-                GALERÍA COMPLETA
-              </h2>
-              <div className="w-24 h-1 bg-brand-red" />
-              <p className="text-gray-medium mt-4 text-lg">
-                Cada proyecto refleja nuestro compromiso con la excelencia
-              </p>
-            </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-9">
               {proyectos.map((proyecto) => (
                 <ProyectoCard 
                   key={proyecto.id} 

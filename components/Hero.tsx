@@ -19,12 +19,12 @@ export default function Hero() {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="container-custom text-center px-6">
           <h1 className="text-white text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6 tracking-tight">
-            SERVICIOS PROFESIONALES
-            <span className="block text-brand-red mt-2">DE PINTURA</span>
+            SERVICIOS DE PINTURA
+            <span className="block text-brand-red mt-2">PROFESIONALES</span>
           </h1>
           
           <p className="text-gray-light text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto mb-12 font-medium tracking-wide">
-            TRANSFORMAMOS ESPACIOS CON CALIDAD Y DEDICACIÓN
+            Transformamos hogares, construímos confianza.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

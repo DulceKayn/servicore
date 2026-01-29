@@ -33,9 +33,9 @@ export default function ProyectosPreview() {
             ))}
           </div>
           
-          <div className="mt-12 text-center">
-            <Link href="/proyectos" className="btn-primary inline-block">
-              VER TODOS LOS PROYECTOS
+          <div className="mt-12 text-center pb-4">
+            <Link href="/proyectos" className="btn-primary inline-block border-2 border-black">
+             | VER TODOS LOS PROYECTOS |
             </Link>
           </div>
         </div>

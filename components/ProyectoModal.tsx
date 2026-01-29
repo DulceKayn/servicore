@@ -10,6 +10,7 @@ interface ProyectoModalProps {
     descripcionCompleta: string;
     imagenAntes: string;
     imagenDespues: string;
+    galeria?: string[];
     fecha: string;
     duracion: string;
     superficie: string;
@@ -101,19 +102,12 @@ export default function ProyectoModal({ proyecto, onClose }: ProyectoModalProps)
           </div>
 
           {/* Información técnica */}
-          <div className="grid grid-cols-3 gap-4 mb-8">
-            <div className="bg-gray-light p-4 text-center">
-              <h3 className="text-xs font-bold text-brand-red mb-1 uppercase tracking-wide">
-                Fecha
-              </h3>
-              <p className="text-lg font-bold text-gray-darker">
-                {proyecto.fecha}
-              </p>
-            </div>
+          <div className="grid grid-cols-2 gap-2 mb-8">
+            
 
             <div className="bg-gray-light p-4 text-center">
               <h3 className="text-xs font-bold text-brand-red mb-1 uppercase tracking-wide">
-                Duración
+                Tiempo en Obra
               </h3>
               <p className="text-lg font-bold text-gray-darker">
                 {proyecto.duracion}
@@ -131,18 +125,40 @@ export default function ProyectoModal({ proyecto, onClose }: ProyectoModalProps)
           </div>
 
           {/* Descripción completa */}
-          <div>
+          <div className="mb-8">
             <h3 className="text-2xl font-extrabold text-gray-darker mb-4 uppercase">
               Descripción del Proyecto
             </h3>
             <div className="w-24 h-1 bg-brand-red mb-4" />
-            <p className="text-gray-dark text-base leading-relaxed">
+            <p className="text-gray-dark text-base leading-relaxed whitespace-pre-line">
               {proyecto.descripcionCompleta}
             </p>
           </div>
 
+          {/* Galería adicional */}
+          {proyecto.galeria && proyecto.galeria.length > 0 && (
+            <div className="mb-8">
+              <h3 className="text-2xl font-extrabold text-gray-darker mb-4 uppercase">
+                Galería de Detalles
+              </h3>
+              <div className="w-24 h-1 bg-brand-red mb-6" />
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {proyecto.galeria.map((imagen, index) => (
+                  <div key={index} className="relative aspect-video">
+                    <Image
+                      src={imagen}
+                      alt={`${proyecto.titulo} - Detalle ${index + 1}`}
+                      fill
+                      className="object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Botón de contacto */}
-          <div className="mt-8 text-center">
+          <div className="text-center">
             <a 
               href="/#contacto" 
               className="inline-block bg-brand-red hover:bg-brand-red-dark text-white font-bold uppercase px-8 py-4 transition-colors duration-300 tracking-wider"

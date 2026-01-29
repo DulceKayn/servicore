@@ -18,7 +18,7 @@ export default function SobreNosotrosPage() {
       </section>
 
       {/* Nuestra Historia */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-white p-6">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -26,25 +26,25 @@ export default function SobreNosotrosPage() {
                 NUESTRA HISTORIA
               </h2>
               <div className="w-24 h-1 bg-brand-red mb-6" />
-              <div className="space-y-4 text-gray-dark text-lg leading-relaxed">
+              <div className="space-y-4 text-gray-dark text-lg leading-relaxed ">
                 <p>
-                  Con más de 15 años de experiencia en el sector, nos hemos consolidado como una empresa líder en servicios de pintura profesional. Comenzamos como un pequeño equipo con grandes sueños y hoy transformamos espacios en toda la región.
+                  Servicore es un emprendimiento que está dando sus primeros pasos, pero con una visión clara: brindar soluciones reales y de calidad para los hogares.
                 </p>
                 <p>
-                  Nuestra pasión por la excelencia y el compromiso con cada cliente nos ha permitido crecer y ganarnos la confianza de cientos de familias y empresas.
+                  Nacimos con el objetivo de transformar y renovar espacios, ayudando a que cada persona pueda vivir su casa como siempre la soñó. Creemos que un buen trabajo no solo se ve, se siente, y por eso cuidamos cada detalle en cada proyecto.
                 </p>
                 <p>
-                  Cada proyecto es una oportunidad para demostrar nuestra dedicación, profesionalismo y atención al detalle que nos caracteriza.
+                  Hoy comenzamos este camino con muchas ganas de crecer, proyectando a largo plazo y apostando a la confianza, la responsabilidad y el compromiso con cada cliente.
                 </p>
               </div>
             </div>
             
             <div className="relative aspect-square">
               <Image
-                src="/sobre-nosotros/equipo.jpg"
+                src="/proyectos/equipo.jpg"
                 alt="Nuestro equipo"
                 fill
-                className="object-cover rounded-lg shadow-xl"
+                className="object-cover rounded-lg shadow-xl "
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function SobreNosotrosPage() {
       </section>
 
       {/* Nuestros Valores */}
-      <section className="section-padding bg-gray-light">
+      <section className="section-padding bg-gray-light pb-4">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12 pt-8">
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-darker mb-4">
@@ -94,10 +94,10 @@ export default function SobreNosotrosPage() {
                 <span className="text-white text-3xl font-bold">◆</span>
               </div>
               <h3 className="text-2xl font-extrabold text-gray-darker mb-4 uppercase">
-                Profesionalismo
+                Confianza
               </h3>
               <p className="text-gray-dark leading-relaxed">
-                Nuestro equipo está capacitado y cuenta con la experiencia necesaria para enfrentar cualquier desafío con excelencia.
+                entendemos que abrir las puertas de tu hogar es un acto de confianza. Por eso cuidamos cada espacio y cada proyecto como si fuera propio.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function SobreNosotrosPage() {
                     Experiencia Comprobada
                   </h3>
                   <p className="text-gray-dark">
-                    Más de 15 años transformando espacios y superando las expectativas de nuestros clientes.
+                    Cada uno de nuestros clientes puede dar fé de la calidad de nuestro trabajo.
                   </p>
                 </div>
               </div>
@@ -207,7 +207,7 @@ export default function SobreNosotrosPage() {
       </section>
 
       {/* Call to action */}
-      <section className="section-padding bg-gray-darker text-white">
+      <section className="section-padding bg-gray-darker text-white pt-6">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
             ¿LISTO PARA TRANSFORMAR TU ESPACIO?

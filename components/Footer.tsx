@@ -16,7 +16,7 @@ export default function Footer() {
               className="h-16 w-auto mb-4"
             />
             <p className="text-gray-light text-sm">
-              Servicios profesionales de pintura con calidad y dedicación.
+              Transformamos hogares, construímos confianza.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="font-bold text-white">Email:</span><br />
-                contacto@pintura.com
+                Cordpint@gmail.com
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
         {/* Línea divisoria */}
         <div className="border-t border-gray-medium pt-6">
           <p className="text-center text-gray-medium text-sm">
-            © {new Date().getFullYear()} Servicore. Servicio de calidad.
+            © {new Date().getFullYear()} Servicore. Servicio de pintura.
           </p>
         </div>
       </div>
