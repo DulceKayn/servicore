@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Servicios Profesionales de Pintura",
-  description: "Transformamos espacios con calidad y dedicación",
+  title: "SERVICIO PROFESIONAL DE PINTURA",
+  description: "TRANSFORMAMOS HOGARES, CONSTRUIMOS CONFIANZA.",
 };
 
 export default function RootLayout({
